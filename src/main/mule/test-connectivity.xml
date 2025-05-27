@@ -21,6 +21,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	"x-personal-access-token" : "JEV2qy59Q457y2RIcPeIyjbsA8szRU00GyTNiqYDIfI"
 }]]]></http:headers>
 		</http:request>
-		<logger level="INFO" doc:name="Logger" doc:id="f5c2cab8-ef9e-42c8-9fd2-dbd0232b366a" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="f5c2cab8-ef9e-42c8-9fd2-dbd0232b366a" message="#[payload]" category="org"/>
 	</flow>
 </mule>
